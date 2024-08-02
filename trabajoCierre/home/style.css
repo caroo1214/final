@@ -1,0 +1,245 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue'
+    }
+
+/*barra home,nosotros*/
+nav{
+    text-align: right;
+    padding: 35px 10px 0 0; /*establece el area de relleno en los cuatro lados a la vez.sup,der,inf,izq*/
+}
+
+/*busqueda*/ 
+nav span{
+ padding-right: 250px;
+}
+
+.contenedorInfo{
+    display: flex;
+}
+
+.logoM{
+    width: 30%;
+    text-align: left;
+    margin-top: -30px;
+}
+
+.barraInfo{
+ margin-right: 0%;
+    width: 70%;
+    text-align: right;
+    margin-top: -20px;
+    
+}
+a{
+    color: rgb(2, 2, 2);
+    font-weight: 500;
+    margin-right: 10px;
+    text-decoration: double;
+    font-family:cursive;
+}
+
+ul.barra{
+    display: flex;
+   justify-content: right;
+    list-style:none;   
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+
+/*header */ 
+header{
+        width: 100%;
+        height: 95px;
+        background: #86ee25;  
+        background-attachment:fixed;/*la imagen estara fija en la pantalla y no se movera con el bloque*/
+        position:relative;  
+}
+
+
+/*banner*/
+.imgBanner{
+    width: 100%;
+    height: 18%;
+}  
+
+.bannerh2{
+    font-size: 35px;
+    color: rgba(42, 56, 55, 0.911);
+   text-align: center;   
+}
+
+
+/*seccion productos*/
+
+
+.titulo{
+    color: #64ac29;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 150px;
+    transition: transform 0.3;
+    transform: scale(1);
+}
+
+.titulo:hover{
+    transform: scale(1.2);
+    background-color: #5c48b8;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+#productoContenedor{
+    background-color: #6f5ace;
+}
+
+#productoContenedor > div:hover{
+    box-shadow: 0 0 20px 0 #06860c;
+}
+
+#tituloOfertas{
+    font-size: medium;
+    color: #3f3c3c;
+}
+
+.card img {
+    width: 150px;
+}
+
+.Comprar{
+  background-color: #8077d1;
+  border-bottom: #3f3c3c;
+  border-radius: 1rem;
+}
+
+.Comprar:hover{
+    cursor: pointer;
+}
+
+.card{
+    color: rgb(247, 50, 15);
+    margin:5px;
+    float: left; /*coloca el elemento en el lado izquierdo y sigue sioendo parate del flujo*/
+    text-align: center;
+    font-size:large;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    height: 300px;
+    width: 155px;
+    overflow: hidden; /*no se desborda y se reccorta el contenido*/
+    position: relative;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+/*seccion nosotros */
+.columna1{
+    display: flexbox;
+    justify-content:center;
+    background-color: #3f3c3c;
+    color: #64ac29;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40%;
+}
+.empresa{
+    font-size: 20px;
+    text-align: center;
+    color: #302d2d;    
+}
+
+.texto{
+    display: flex;
+    text-align:center;
+    font-size: 23px;
+    color: rgb(14, 6, 31);
+    background-color: #aad880;
+    opacity:90%;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+}
+
+.imgEmpresa{
+ display:flex;
+   width: 550px;
+   margin-top: 55px;
+   margin-left: 5px;
+   margin-right: 5px;   
+}
+
+
+ /*--->Servicios<---*/
+
+ .about-services{
+    background: #f2f2f2;
+    padding-bottom: 30px;
+}
+
+.servicio-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servicio-ind{
+    width: 28%;
+    text-align: center;
+}
+
+.servicio-ind img{
+    width: 90%;
+}
+
+.servicio-ind h3{
+    margin: 10px 0;
+}
+
+.servicio-ind p{
+    font-weight: 300;
+    text-align: center;
+}
+
+  /* footer*/
+
+footer{
+    background: #575656;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #44d320;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #ccc;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+
+/*---------------------------------------------*/
