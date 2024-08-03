@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imagenes/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./contacto/contacto.css">
+    <title>Olavarria Market</title>
+</head>
+<body>
+    <header>
+
+        <nav>
+         <div class="contenedorInfo">
+          <div class="logoM"> <a href = "./index.html" ><img src="./imagenes/logo (2).png" alt=""> </a></div>
+
+            <div class="barraInfo">
+               <ul class="barra">
+          
+         <li><a href="./index.html">Home</a></li>
+         <li><a href="index.html #2">Sobre Nosotros</a></li>
+         <li><a href="productos.html">Productos</a></li>
+         <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+    </div>
+            </div>
+        </nav>
+    </header> 
+
+
+
+
+  <div class="container-contacto">
+
+   
+    <h2> Formulario de Contacto</h2>
+
+
+    <form  id="form">
+      <!--label son una especie de rotulo,etiqueta-->
+
+    <label for="nombre"></label>
+    <input type="text" id="nombre" placeholder="Ingrese su Nombre" required>
+
+    <label for="correo"></label>
+    <input type="email"  id="correo" placeholder="Ingrese su Correo" required>
+
+    <label for="celular"></label>
+    <input type="number" id="celular" name="celular" placeholder="Ingrese su Celular" required>
+
+    <label for="mensaje"></label>
+      <textarea id="mensaje" name="mensaje" placeholder="ingrese su mensaje" required></textarea>
+     <button type="submit" id="botonEnviar">Enviar</button>
+
+  </form>
+  </div>
+
+
+  <footer >
+    <div class="contenedor-footer">
+       <div class="content-foo">
+          <h4>Teléfono</h4>
+          <p>2284-666-4467</p>
+        </div>  
+
+        <div class="content-foo">
+           <h4>Email</h4>
+           <p>OlavarriaMarket@gmail.com</p>
+       </div>       
+
+        <div class="content-foo">
+           <h4>Ubicación</h4>
+           <p>Olavarria, Argentina</p>
+       </div>
+    </div>
+         <h2 class="titulo-final">&copy; Olavarria Market| 2024 </h2>
+ </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    <script  src="./contacto/contacto.js"></script>
+  
+</html>
